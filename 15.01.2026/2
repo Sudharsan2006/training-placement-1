@@ -1,0 +1,5 @@
+s = "madam"
+rev = ""
+for i in s:
+    rev = i + rev
+is_palindrome = s == rev
