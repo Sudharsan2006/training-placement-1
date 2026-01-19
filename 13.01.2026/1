@@ -1,0 +1,7 @@
+n = 10
+a = 0
+b = 1
+series = []
+for i in range(n):
+    series.append(a)
+    a, b = b, a + b
